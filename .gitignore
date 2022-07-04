@@ -1,0 +1,6 @@
+niftyreg_build
+niftyreg_install
+niftyreg_source
+voxel_size.py
+automatic_registration_easy_resect.sh
+automatic_registration_MRI_to_US.sh
