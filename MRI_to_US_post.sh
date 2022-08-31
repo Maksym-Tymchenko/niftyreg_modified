@@ -4,20 +4,20 @@
 
 case_num=${1-"2"}
 image_folder=${2:-"bucket/RESECT/RESECT/NIFTI/Case${case_num}"}
-us_image_compressed=${3:-"$image_folder/US/Case${case_num}-US-before.nii.gz"}
+us_image_compressed=${3:-"$image_folder/US/Case${case_num}-US-after.nii.gz"}
 mri_image_compressed=${4:-"$image_folder/MRI/Case${case_num}-FLAIR.nii.gz"}
-tag_file=${5:-"$image_folder/Landmarks/Case${case_num}-MRI-beforeUS.tag"}
+tag_file=${5:-"$image_folder/Landmarks/Case${case_num}-MRI-afterUS.tag"}
 
 # Create directory to store the outputs
-mkdir -p $image_folder/output/niftyreg
+mkdir -p $image_folder/output/niftyreg/after
 
-output_folder="$image_folder/output/niftyreg"
+output_folder="$image_folder/output/niftyreg/after"
 
 # Unzip the nii files
-gunzip -cdkf $us_image_compressed > $output_folder/Case${case_num}-US-before.nii
+gunzip -cdkf $us_image_compressed > $output_folder/Case${case_num}-US-after.nii
 gunzip -cdkf $mri_image_compressed > $output_folder/Case${case_num}-FLAIR.nii
 
-us_image="$output_folder/Case${case_num}-US-before.nii"
+us_image="$output_folder/Case${case_num}-US-after.nii"
 mri_image="$output_folder/Case${case_num}-FLAIR.nii"
 
 # Resample images into a common reference frame and isotropic voxel size of 1x1x1 mm

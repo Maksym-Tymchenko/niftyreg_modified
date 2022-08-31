@@ -5,7 +5,7 @@
 case_num=${1-"2"}
 image_folder=${2:-"bucket/RESECT/RESECT/NIFTI/Case${case_num}"}
 us_image_compressed=${3:-"$image_folder/US/Case${case_num}-US-before.nii.gz"}
-mri_image_compressed=${4:-"$image_folder/MRI/Case${case_num}-FLAIR.nii.gz"}
+mri_image_compressed=${4:-"$image_folder/MRI/Case${case_num}-T1.nii.gz"}
 tag_file=${5:-"$image_folder/Landmarks/Case${case_num}-MRI-beforeUS.tag"}
 
 # Create directory to store the outputs
@@ -15,10 +15,10 @@ output_folder="$image_folder/output/niftyreg"
 
 # Unzip the nii files
 gunzip -cdkf $us_image_compressed > $output_folder/Case${case_num}-US-before.nii
-gunzip -cdkf $mri_image_compressed > $output_folder/Case${case_num}-FLAIR.nii
+gunzip -cdkf $mri_image_compressed > $output_folder/Case${case_num}-T1.nii
 
 us_image="$output_folder/Case${case_num}-US-before.nii"
-mri_image="$output_folder/Case${case_num}-FLAIR.nii"
+mri_image="$output_folder/Case${case_num}-T1.nii"
 
 # Resample images into a common reference frame and isotropic voxel size of 1x1x1 mm
 vox_size=0.5
@@ -42,7 +42,7 @@ reg_aladin -ref $output_folder/Case${case_num}-US.nii \
 -res $output_folder/Case${case_num}-MRI_to_US_result.nii \
 -rmask $output_folder/mask_US.nii \
 -fmask $output_folder/mask_US.nii \
--aff $output_folder/affine_matrix.txt -rigOnly #-noSym #-rigOnly
+-aff $output_folder/affine_matrix.txt # -noSym # -rigOnly
 
 
 # Generate 2 text files containing landmarks
@@ -59,13 +59,13 @@ reg_resample -ref $output_folder/Case${case_num}-US.nii \
 -trans $output_folder/affine_matrix.txt \
 -inter 0
 
-
 # Calculate mTRE
 python3 ./landmarks_centre_mass.py --inputnii $output_folder/Case${case_num}-US-landmarks.nii \
 --movingnii $output_folder/Case${case_num}-deformed_seg.nii \
 --savetxt $output_folder/Case${case_num}--results
 
 # Remove unnecessary files
+
 rm $output_folder/Case${case_num}_lm*
 rm $output_folder/Case${case_num}--results*
 rm $output_folder/mask_US*

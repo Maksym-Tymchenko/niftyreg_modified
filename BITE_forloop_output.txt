@@ -1,0 +1,1769 @@
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/01/output/niftyreg/Case01-US.nii -flo bucket/BITE_group2_nii/01/output/niftyreg/Case01-MRI_in_US.nii -res bucket/BITE_group2_nii/01/output/niftyreg/Case01-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/01/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/01/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/01/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/01/output/niftyreg/Case01-US.nii
+[reg_aladin_sym] 	194x220x223 voxels
+[reg_aladin_sym] 	0.499485x0.499091x0.499103 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/01/output/niftyreg/Case01-MRI_in_US.nii
+[reg_aladin_sym] 	194x220x223 voxels
+[reg_aladin_sym] 	0.499485x0.499091x0.499103 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	49x55x56 voxels	1.99794x1.99636x1.99641 mm
+[reg_aladin_sym] floating image size: 	49x55x56 voxels	1.99794x1.99636x1.99641 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 14 14]
+[reg_aladin_sym] Backward Block number = [13 14 14]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9989666	-0.04364975	-0.0126583	1.843921
+0.04330678	0.998718	-0.02620783	3.432894
+0.01378603	0.02563257	0.9995764	1.54679
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9989668	0.04330679	0.01378604	-2.012007
+-0.04364974	0.998718	0.02563256	-3.387655
+-0.0126583	-0.02620785	0.9995764	-1.432825
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	97x110x112 voxels	0.998969x0.998182x0.998206 mm
+[reg_aladin_sym] floating image size: 	97x110x112 voxels	0.998969x0.998182x0.998206 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [25 28 28]
+[reg_aladin_sym] Backward Block number = [25 28 28]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9989666	-0.04364975	-0.0126583	1.843921
+0.04330678	0.998718	-0.02620783	3.432894
+0.01378603	0.02563257	0.9995764	1.54679
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9989668	0.04330679	0.01378604	-2.012007
+-0.04364974	0.998718	0.02563256	-3.387655
+-0.0126583	-0.02620785	0.9995764	-1.432825
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9989019	-0.03831956	-0.02695355	0.8111305
+0.03806158	0.9992251	-0.01002016	1.783314
+0.02731662	0.008983279	0.9995864	0.6830456
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.998902	0.03806159	0.02731663	-0.8967741
+-0.03831956	0.9992251	0.008983259	-1.756986
+-0.02695353	-0.01002018	0.9995865	-0.6430312
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	194x220x223 voxels	0.499485x0.499091x0.499103 mm
+[reg_aladin_sym] floating image size: 	194x220x223 voxels	0.499485x0.499091x0.499103 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [49 55 56]
+[reg_aladin_sym] Backward Block number = [49 55 56]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9989019	-0.03831956	-0.02695355	0.8111305
+0.03806158	0.9992251	-0.01002016	1.783314
+0.02731662	0.008983279	0.9995864	0.6830456
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.998902	0.03806159	0.02731663	-0.8967741
+-0.03831956	0.9992251	0.008983259	-1.756986
+-0.02695353	-0.01002018	0.9995865	-0.6430312
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9992058	-0.03057599	-0.02555008	0.5721249
+0.03021177	0.999438	-0.01452301	1.308094
+0.02597981	0.01373953	0.999568	0.30004
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9992058	0.03021174	0.02597978	-0.6189853
+-0.03057602	0.999438	0.01373956	-1.293988
+-0.02555012	-0.01452298	0.999568	-0.2662951
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 51 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/01/output/niftyreg/Case01-US.nii -flo bucket/BITE_group2_nii/01/output/niftyreg/Case01-MRI-landmarks.nii -res bucket/BITE_group2_nii/01/output/niftyreg/Case01-deformed_seg.nii -trans bucket/BITE_group2_nii/01/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/01/output/niftyreg/Case01-US.nii
+	194x220x223 voxels, 1 volumes
+	0.499485x0.499091x0.499103 mm
+Floating image name: bucket/BITE_group2_nii/01/output/niftyreg/Case01-MRI-landmarks.nii
+	194x220x223 voxels, 1 volumes
+	0.499485x0.499091x0.499103 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/01/output/niftyreg/Case01-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 17. 18.
+ 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35. 36.]
+img2 shape: (194, 220, 223)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35.
+ 36.]
+('landmark error (vox)', 9.478645984466258)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/02/output/niftyreg/Case02-US.nii -flo bucket/BITE_group2_nii/02/output/niftyreg/Case02-MRI_in_US.nii -res bucket/BITE_group2_nii/02/output/niftyreg/Case02-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/02/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/02/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/02/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/02/output/niftyreg/Case02-US.nii
+[reg_aladin_sym] 	198x212x175 voxels
+[reg_aladin_sym] 	0.498485x0.499528x0.498857 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/02/output/niftyreg/Case02-MRI_in_US.nii
+[reg_aladin_sym] 	198x212x175 voxels
+[reg_aladin_sym] 	0.498485x0.499528x0.498857 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	50x53x44 voxels	1.99394x1.99811x1.99543 mm
+[reg_aladin_sym] floating image size: 	50x53x44 voxels	1.99394x1.99811x1.99543 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 14 11]
+[reg_aladin_sym] Backward Block number = [13 14 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9985778	0.0002191068	-0.05331315	4.459438
+0.002357666	0.9988317	0.04826504	3.135028
+0.05326143	-0.04832208	0.9974107	-3.36542
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9985778	0.002357663	0.05326144	-4.28124
+0.0002191043	0.9988318	-0.0483221	-3.294967
+-0.05331314	0.04826503	0.9974108	3.443141
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	99x106x88 voxels	0.99697x0.999057x0.997714 mm
+[reg_aladin_sym] floating image size: 	99x106x88 voxels	0.99697x0.999057x0.997714 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [25 27 22]
+[reg_aladin_sym] Backward Block number = [25 27 22]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9985778	0.0002191068	-0.05331315	4.459438
+0.002357666	0.9988317	0.04826504	3.135028
+0.05326143	-0.04832208	0.9974107	-3.36542
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9985778	0.002357663	0.05326144	-4.28124
+0.0002191043	0.9988318	-0.0483221	-3.294967
+-0.05331314	0.04826503	0.9974108	3.443141
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.99992	-0.003011811	-0.01228764	2.409578
+0.003586675	0.9988868	0.04703407	2.949181
+0.01213233	-0.04707437	0.9988177	-3.704731
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.99992	0.003586683	0.0121323	-2.375015
+-0.003011801	0.9988869	-0.04707437	-3.113039
+-0.01228767	0.04703407	0.9988177	3.591248
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	198x212x175 voxels	0.498485x0.499528x0.498857 mm
+[reg_aladin_sym] floating image size: 	198x212x175 voxels	0.498485x0.499528x0.498857 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [50 53 44]
+[reg_aladin_sym] Backward Block number = [50 53 44]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.99992	-0.003011811	-0.01228764	2.409578
+0.003586675	0.9988868	0.04703407	2.949181
+0.01213233	-0.04707437	0.9988177	-3.704731
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.99992	0.003586683	0.0121323	-2.375015
+-0.003011801	0.9988869	-0.04707437	-3.113039
+-0.01228767	0.04703407	0.9988177	3.591248
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999375	-0.003677493	-0.01055587	2.148133
+0.004201048	0.9987397	0.05001345	2.571898
+0.01035865	-0.05005468	0.9986928	-3.437482
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999375	0.004201056	0.01035864	-2.123196
+-0.003677484	0.9987398	-0.05005467	-2.73282
+-0.01055588	0.05001346	0.9986928	3.327035
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 43 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/02/output/niftyreg/Case02-US.nii -flo bucket/BITE_group2_nii/02/output/niftyreg/Case02-MRI-landmarks.nii -res bucket/BITE_group2_nii/02/output/niftyreg/Case02-deformed_seg.nii -trans bucket/BITE_group2_nii/02/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/02/output/niftyreg/Case02-US.nii
+	198x212x175 voxels, 1 volumes
+	0.498485x0.499528x0.498857 mm
+Floating image name: bucket/BITE_group2_nii/02/output/niftyreg/Case02-MRI-landmarks.nii
+	198x212x175 voxels, 1 volumes
+	0.498485x0.499528x0.498857 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/02/output/niftyreg/Case02-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34.]
+img2 shape: (198, 212, 175)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34.]
+('landmark error (vox)', 3.2679721358271427)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/03/output/niftyreg/Case03-US.nii -flo bucket/BITE_group2_nii/03/output/niftyreg/Case03-MRI_in_US.nii -res bucket/BITE_group2_nii/03/output/niftyreg/Case03-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/03/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/03/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/03/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/03/output/niftyreg/Case03-US.nii
+[reg_aladin_sym] 	196x303x277 voxels
+[reg_aladin_sym] 	0.49898x0.49901x0.499278 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/03/output/niftyreg/Case03-MRI_in_US.nii
+[reg_aladin_sym] 	196x303x277 voxels
+[reg_aladin_sym] 	0.49898x0.49901x0.499278 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	49x76x70 voxels	1.99592x1.99604x1.99711 mm
+[reg_aladin_sym] floating image size: 	49x76x70 voxels	1.99592x1.99604x1.99711 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 19 18]
+[reg_aladin_sym] Backward Block number = [13 19 18]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9992695	-0.01403952	0.03554342	2.662382
+0.01187065	0.9980968	0.0605123	6.129331
+-0.03632535	-0.06004617	0.9975344	-3.969903
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9992695	0.01187066	-0.03632534	-2.877404
+-0.01403952	0.9980969	-0.06004618	-6.318666
+0.03554342	0.0605123	0.9975345	3.494585
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	98x152x139 voxels	0.997959x0.99802x0.998556 mm
+[reg_aladin_sym] floating image size: 	98x152x139 voxels	0.997959x0.99802x0.998556 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [25 38 35]
+[reg_aladin_sym] Backward Block number = [25 38 35]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9992695	-0.01403952	0.03554342	2.662382
+0.01187065	0.9980968	0.0605123	6.129331
+-0.03632535	-0.06004617	0.9975344	-3.969903
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9992695	0.01187066	-0.03632534	-2.877404
+-0.01403952	0.9980969	-0.06004618	-6.318666
+0.03554342	0.0605123	0.9975345	3.494585
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9991449	-0.01932981	0.03655051	3.434859
+0.01783618	0.9990098	0.04075844	6.608236
+-0.03730217	-0.04007166	0.9985003	-3.895742
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9991448	0.01783618	-0.03730217	-3.695106
+-0.01932981	0.9990098	-0.04007167	-6.691406
+0.03655051	0.04075844	0.9985003	3.495012
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	196x303x277 voxels	0.49898x0.49901x0.499278 mm
+[reg_aladin_sym] floating image size: 	196x303x277 voxels	0.49898x0.49901x0.499278 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [49 76 70]
+[reg_aladin_sym] Backward Block number = [49 76 70]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9991449	-0.01932981	0.03655051	3.434859
+0.01783618	0.9990098	0.04075844	6.608236
+-0.03730217	-0.04007166	0.9985003	-3.895742
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9991448	0.01783618	-0.03730217	-3.695106
+-0.01932981	0.9990098	-0.04007167	-6.691406
+0.03655051	0.04075844	0.9985003	3.495012
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9994946	-0.01410581	0.02848841	3.396744
+0.01327162	0.9994837	0.02926047	6.219869
+-0.02888645	-0.0288676	0.9991658	-3.096788
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9994946	0.01327164	-0.02888644	-3.56703
+-0.01410578	0.9994837	-0.02886759	-6.258141
+0.02848841	0.02926048	0.9991658	2.815441
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 1 min 18 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/03/output/niftyreg/Case03-US.nii -flo bucket/BITE_group2_nii/03/output/niftyreg/Case03-MRI-landmarks.nii -res bucket/BITE_group2_nii/03/output/niftyreg/Case03-deformed_seg.nii -trans bucket/BITE_group2_nii/03/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/03/output/niftyreg/Case03-US.nii
+	196x303x277 voxels, 1 volumes
+	0.49898x0.49901x0.499278 mm
+Floating image name: bucket/BITE_group2_nii/03/output/niftyreg/Case03-MRI-landmarks.nii
+	196x303x277 voxels, 1 volumes
+	0.49898x0.49901x0.499278 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/03/output/niftyreg/Case03-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35.
+ 36. 37. 38. 39.]
+img2 shape: (196, 303, 277)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 33. 34. 35. 36.
+ 37. 38. 39.]
+('landmark error (vox)', nan)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/04/output/niftyreg/Case04-US.nii -flo bucket/BITE_group2_nii/04/output/niftyreg/Case04-MRI_in_US.nii -res bucket/BITE_group2_nii/04/output/niftyreg/Case04-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/04/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/04/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/04/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/04/output/niftyreg/Case04-US.nii
+[reg_aladin_sym] 	200x107x180 voxels
+[reg_aladin_sym] 	0.498x0.496262x0.498333 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/04/output/niftyreg/Case04-MRI_in_US.nii
+[reg_aladin_sym] 	200x107x180 voxels
+[reg_aladin_sym] 	0.498x0.496262x0.498333 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	50x54x45 voxels	1.992x0.992523x1.99333 mm
+[reg_aladin_sym] floating image size: 	50x54x45 voxels	1.992x0.992523x1.99333 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 14 12]
+[reg_aladin_sym] Backward Block number = [13 14 12]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9994124	0.02135145	-0.02681214	2.741202
+-0.02150565	0.9997538	-0.005476033	0.1880121
+0.02668865	0.006049437	0.9996254	4.909045
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9994125	-0.02150566	0.02668861	-2.866564
+0.02135144	0.9997537	0.006049428	-0.2761914
+-0.02681218	-0.005476041	0.9996255	-4.832679
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	100x54x90 voxels	0.996x0.992523x0.996667 mm
+[reg_aladin_sym] floating image size: 	100x54x90 voxels	0.996x0.992523x0.996667 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [25 14 23]
+[reg_aladin_sym] Backward Block number = [25 14 23]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9994124	0.02135145	-0.02681214	2.741202
+-0.02150565	0.9997538	-0.005476033	0.1880121
+0.02668865	0.006049437	0.9996254	4.909045
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9994125	-0.02150566	0.02668861	-2.866564
+0.02135144	0.9997537	0.006049428	-0.2761914
+-0.02681218	-0.005476041	0.9996255	-4.832679
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9993114	0.01546837	-0.03372629	2.309897
+-0.0153484	0.9998749	0.003813409	0.04396104
+0.03378107	-0.003293144	0.9994238	3.304004
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9993114	-0.01534839	0.03378106	-2.419245
+0.01546837	0.9998749	-0.003293139	-0.06880536
+-0.0337263	0.003813414	0.9994238	-3.224364
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	200x107x180 voxels	0.498x0.496262x0.498333 mm
+[reg_aladin_sym] floating image size: 	200x107x180 voxels	0.498x0.496262x0.498333 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [50 27 45]
+[reg_aladin_sym] Backward Block number = [50 27 45]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9993114	0.01546837	-0.03372629	2.309897
+-0.0153484	0.9998749	0.003813409	0.04396104
+0.03378107	-0.003293144	0.9994238	3.304004
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9993114	-0.01534839	0.03378106	-2.419245
+0.01546837	0.9998749	-0.003293139	-0.06880536
+-0.0337263	0.003813414	0.9994238	-3.224364
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.999442	0.02152988	-0.02553867	1.891845
+-0.0217161	0.9997394	-0.007036735	0.436604
+0.02538051	0.007587407	0.999649	3.300036
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9994419	-0.0217161	0.02538051	-1.965064
+0.02152988	0.9997394	0.007587409	-0.5022601
+-0.02553866	-0.007036734	0.999649	-3.247491
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 22 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/04/output/niftyreg/Case04-US.nii -flo bucket/BITE_group2_nii/04/output/niftyreg/Case04-MRI-landmarks.nii -res bucket/BITE_group2_nii/04/output/niftyreg/Case04-deformed_seg.nii -trans bucket/BITE_group2_nii/04/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/04/output/niftyreg/Case04-US.nii
+	200x107x180 voxels, 1 volumes
+	0.498x0.496262x0.498333 mm
+Floating image name: bucket/BITE_group2_nii/04/output/niftyreg/Case04-MRI-landmarks.nii
+	200x107x180 voxels, 1 volumes
+	0.498x0.496262x0.498333 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/04/output/niftyreg/Case04-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31.]
+img2 shape: (200, 107, 180)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31.]
+('landmark error (vox)', 4.188769464658082)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/05/output/niftyreg/Case05-US.nii -flo bucket/BITE_group2_nii/05/output/niftyreg/Case05-MRI_in_US.nii -res bucket/BITE_group2_nii/05/output/niftyreg/Case05-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/05/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/05/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/05/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/05/output/niftyreg/Case05-US.nii
+[reg_aladin_sym] 	201x230x195 voxels
+[reg_aladin_sym] 	0.498507x0.498261x0.498462 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/05/output/niftyreg/Case05-MRI_in_US.nii
+[reg_aladin_sym] 	201x230x195 voxels
+[reg_aladin_sym] 	0.498507x0.498261x0.498462 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	51x58x49 voxels	1.99403x1.99304x1.99385 mm
+[reg_aladin_sym] floating image size: 	51x58x49 voxels	1.99403x1.99304x1.99385 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 15 13]
+[reg_aladin_sym] Backward Block number = [13 15 13]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.999993	-0.003350086	-0.001654994	-1.16084
+0.003337819	0.9999674	-0.007358301	-1.111898
+0.00167959	0.007352719	0.9999716	-1.114673
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.999993	0.003337821	0.00167959	1.166415
+-0.003350083	0.9999673	0.007352726	1.116169
+-0.001654994	-0.007358294	0.9999716	1.104539
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	101x115x98 voxels	0.997015x0.996522x0.996923 mm
+[reg_aladin_sym] floating image size: 	101x115x98 voxels	0.997015x0.996522x0.996923 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 29 25]
+[reg_aladin_sym] Backward Block number = [26 29 25]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.999993	-0.003350086	-0.001654994	-1.16084
+0.003337819	0.9999674	-0.007358301	-1.111898
+0.00167959	0.007352719	0.9999716	-1.114673
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.999993	0.003337821	0.00167959	1.166415
+-0.003350083	0.9999673	0.007352726	1.116169
+-0.001654994	-0.007358294	0.9999716	1.104539
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9997777	-0.009366421	-0.0188861	-0.9010307
+0.008943781	0.9997104	-0.02234072	-0.5867493
+0.01908988	0.02216681	0.999572	-0.9671324
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9997777	0.008943768	0.01908988	0.9245406
+-0.009366433	0.9997104	0.02216684	0.5995781
+-0.01888609	-0.02234069	0.999572	0.9365931
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	201x230x195 voxels	0.498507x0.498261x0.498462 mm
+[reg_aladin_sym] floating image size: 	201x230x195 voxels	0.498507x0.498261x0.498462 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [51 58 49]
+[reg_aladin_sym] Backward Block number = [51 58 49]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9997777	-0.009366421	-0.0188861	-0.9010307
+0.008943781	0.9997104	-0.02234072	-0.5867493
+0.01908988	0.02216681	0.999572	-0.9671324
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9997777	0.008943768	0.01908988	0.9245406
+-0.009366433	0.9997104	0.02216684	0.5995781
+-0.01888609	-0.02234069	0.999572	0.9365931
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9996404	-0.01138188	-0.02427972	-0.1490855
+0.01109678	0.9998683	-0.01184489	-1.047966
+0.02441134	0.01157117	0.999635	-0.7190321
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9996404	0.01109678	0.02441134	0.1782135
+-0.01138188	0.9998683	0.01157121	1.054451
+-0.02427972	-0.01184486	0.999635	0.7027369
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 41 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/05/output/niftyreg/Case05-US.nii -flo bucket/BITE_group2_nii/05/output/niftyreg/Case05-MRI-landmarks.nii -res bucket/BITE_group2_nii/05/output/niftyreg/Case05-deformed_seg.nii -trans bucket/BITE_group2_nii/05/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/05/output/niftyreg/Case05-US.nii
+	201x230x195 voxels, 1 volumes
+	0.498507x0.498261x0.498462 mm
+Floating image name: bucket/BITE_group2_nii/05/output/niftyreg/Case05-MRI-landmarks.nii
+	201x230x195 voxels, 1 volumes
+	0.498507x0.498261x0.498462 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/05/output/niftyreg/Case05-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+img2 shape: (201, 230, 195)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+('landmark error (vox)', 4.0657493537443115)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/06/output/niftyreg/Case06-US.nii -flo bucket/BITE_group2_nii/06/output/niftyreg/Case06-MRI_in_US.nii -res bucket/BITE_group2_nii/06/output/niftyreg/Case06-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/06/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/06/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/06/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/06/output/niftyreg/Case06-US.nii
+[reg_aladin_sym] 	200x260x168 voxels
+[reg_aladin_sym] 	0.4995x0.498462x0.498214 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/06/output/niftyreg/Case06-MRI_in_US.nii
+[reg_aladin_sym] 	200x260x168 voxels
+[reg_aladin_sym] 	0.4995x0.498462x0.498214 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	50x65x42 voxels	1.998x1.99385x1.99286 mm
+[reg_aladin_sym] floating image size: 	50x65x42 voxels	1.998x1.99385x1.99286 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 17 11]
+[reg_aladin_sym] Backward Block number = [13 17 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9985391	0.04519593	0.02961538	-3.368766
+-0.04342791	0.9973806	-0.05784375	1.512414
+-0.0321521	0.05647311	0.9978863	-2.305402
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.998539	-0.04342793	-0.03215211	3.355402
+0.04519592	0.9973806	0.05647311	-1.226004
+0.02961537	-0.05784375	0.9978863	2.48778
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	100x130x84 voxels	0.999x0.996923x0.996429 mm
+[reg_aladin_sym] floating image size: 	100x130x84 voxels	0.999x0.996923x0.996429 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [25 33 21]
+[reg_aladin_sym] Backward Block number = [25 33 21]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9985391	0.04519593	0.02961538	-3.368766
+-0.04342791	0.9973806	-0.05784375	1.512414
+-0.0321521	0.05647311	0.9978863	-2.305402
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.998539	-0.04342793	-0.03215211	3.355402
+0.04519592	0.9973806	0.05647311	-1.226004
+0.02961537	-0.05784375	0.9978863	2.48778
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9996864	0.008283494	0.02363268	-2.086422
+-0.007524053	0.999458	-0.03204533	0.8764524
+-0.02388535	0.03185748	0.999207	-2.060296
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9996864	-0.007524048	-0.02388532	2.043151
+0.008283501	0.9994581	0.03185746	-0.7930588
+0.02363271	-0.03204535	0.999207	2.136057
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	200x260x168 voxels	0.4995x0.498462x0.498214 mm
+[reg_aladin_sym] floating image size: 	200x260x168 voxels	0.4995x0.498462x0.498214 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [50 65 42]
+[reg_aladin_sym] Backward Block number = [50 65 42]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9996864	0.008283494	0.02363268	-2.086422
+-0.007524053	0.999458	-0.03204533	0.8764524
+-0.02388535	0.03185748	0.999207	-2.060296
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9996864	-0.007524048	-0.02388532	2.043151
+0.008283501	0.9994581	0.03185746	-0.7930588
+0.02363271	-0.03204535	0.999207	2.136057
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998813	-0.0006378432	0.01538992	-1.782006
+0.001026495	0.9996804	-0.02525982	0.8340428
+-0.01536887	0.02527262	0.9995624	-1.861607
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998814	0.001026508	-0.01536889	1.752328
+-0.0006378309	0.9996804	0.02527262	-0.7878652
+0.0153899	-0.02525982	0.9995624	1.909285
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 30 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/06/output/niftyreg/Case06-US.nii -flo bucket/BITE_group2_nii/06/output/niftyreg/Case06-MRI-landmarks.nii -res bucket/BITE_group2_nii/06/output/niftyreg/Case06-deformed_seg.nii -trans bucket/BITE_group2_nii/06/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/06/output/niftyreg/Case06-US.nii
+	200x260x168 voxels, 1 volumes
+	0.4995x0.498462x0.498214 mm
+Floating image name: bucket/BITE_group2_nii/06/output/niftyreg/Case06-MRI-landmarks.nii
+	200x260x168 voxels, 1 volumes
+	0.4995x0.498462x0.498214 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/06/output/niftyreg/Case06-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35.
+ 36.]
+img2 shape: (200, 260, 168)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35.
+ 36.]
+('landmark error (vox)', 3.436385251506037)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/07/output/niftyreg/Case07-US.nii -flo bucket/BITE_group2_nii/07/output/niftyreg/Case07-MRI_in_US.nii -res bucket/BITE_group2_nii/07/output/niftyreg/Case07-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/07/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/07/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/07/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/07/output/niftyreg/Case07-US.nii
+[reg_aladin_sym] 	207x317x185 voxels
+[reg_aladin_sym] 	0.498551x0.498738x0.497838 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/07/output/niftyreg/Case07-MRI_in_US.nii
+[reg_aladin_sym] 	207x317x185 voxels
+[reg_aladin_sym] 	0.498551x0.498738x0.497838 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	52x80x47 voxels	1.9942x1.99495x1.99135 mm
+[reg_aladin_sym] floating image size: 	52x80x47 voxels	1.9942x1.99495x1.99135 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 20 12]
+[reg_aladin_sym] Backward Block number = [13 20 12]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9992079	-0.03932673	0.006073101	0.1631862
+0.03932675	0.9992264	0.0001214699	2.591588
+-0.006073167	0.000117451	0.9999816	-1.382674
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.999208	0.03932672	-0.00607318	-0.2733729
+-0.03932676	0.9992264	0.0001174616	-2.583003
+0.006073088	0.0001214798	0.9999816	1.381342
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	104x159x93 voxels	0.997101x0.997476x0.995676 mm
+[reg_aladin_sym] floating image size: 	104x159x93 voxels	0.997101x0.997476x0.995676 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 40 24]
+[reg_aladin_sym] Backward Block number = [26 40 24]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9992079	-0.03932673	0.006073101	0.1631862
+0.03932675	0.9992264	0.0001214699	2.591588
+-0.006073167	0.000117451	0.9999816	-1.382674
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.999208	0.03932672	-0.00607318	-0.2733729
+-0.03932676	0.9992264	0.0001174616	-2.583003
+0.006073088	0.0001214798	0.9999816	1.381342
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999542	-0.0002440197	0.009571625	1.535698
+0.0001737638	0.9999731	0.007340114	1.74239
+-0.009573152	-0.007338115	0.9999273	-1.201063
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999542	0.0001737638	-0.009573158	-1.547429
+-0.0002440192	0.9999731	-0.007338115	-1.750782
+0.009571619	0.007340114	0.9999272	1.173487
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	207x317x185 voxels	0.498551x0.498738x0.497838 mm
+[reg_aladin_sym] floating image size: 	207x317x185 voxels	0.498551x0.498738x0.497838 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [52 80 47]
+[reg_aladin_sym] Backward Block number = [52 80 47]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9999542	-0.0002440197	0.009571625	1.535698
+0.0001737638	0.9999731	0.007340114	1.74239
+-0.009573152	-0.007338115	0.9999273	-1.201063
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9999542	0.0001737638	-0.009573158	-1.547429
+-0.0002440192	0.9999731	-0.007338115	-1.750782
+0.009571619	0.007340114	0.9999272	1.173487
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999824	-0.004471218	0.003897428	1.24637
+0.004435939	0.9999495	0.009016744	1.708689
+-0.003937562	-0.008999296	0.9999517	-0.8332755
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999824	0.004435928	-0.003937548	-1.257209
+-0.004471229	0.9999495	-0.008999297	-1.710529
+0.003897443	0.009016744	0.9999518	0.8129708
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 1 min 1 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/07/output/niftyreg/Case07-US.nii -flo bucket/BITE_group2_nii/07/output/niftyreg/Case07-MRI-landmarks.nii -res bucket/BITE_group2_nii/07/output/niftyreg/Case07-deformed_seg.nii -trans bucket/BITE_group2_nii/07/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/07/output/niftyreg/Case07-US.nii
+	207x317x185 voxels, 1 volumes
+	0.498551x0.498738x0.497838 mm
+Floating image name: bucket/BITE_group2_nii/07/output/niftyreg/Case07-MRI-landmarks.nii
+	207x317x185 voxels, 1 volumes
+	0.498551x0.498738x0.497838 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/07/output/niftyreg/Case07-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18.]
+img2 shape: (207, 317, 185)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18.]
+('landmark error (vox)', 4.818555307894173)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/08/output/niftyreg/Case08-US.nii -flo bucket/BITE_group2_nii/08/output/niftyreg/Case08-MRI_in_US.nii -res bucket/BITE_group2_nii/08/output/niftyreg/Case08-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/08/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/08/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/08/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/08/output/niftyreg/Case08-US.nii
+[reg_aladin_sym] 	228x240x200 voxels
+[reg_aladin_sym] 	0.498684x0.49875x0.4995 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/08/output/niftyreg/Case08-MRI_in_US.nii
+[reg_aladin_sym] 	228x240x200 voxels
+[reg_aladin_sym] 	0.498684x0.49875x0.4995 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	57x60x50 voxels	1.99474x1.995x1.998 mm
+[reg_aladin_sym] floating image size: 	57x60x50 voxels	1.99474x1.995x1.998 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [15 15 13]
+[reg_aladin_sym] Backward Block number = [15 15 13]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9994699	0.00476162	0.03220528	2.090791
+-0.005536795	0.999696	0.02402509	-2.693588
+-0.0320811	-0.02419066	0.9991925	-2.754895
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9994699	-0.005536842	-0.03208109	-2.192976
+0.004761572	0.999696	-0.02419067	2.616171
+0.03220529	0.02402508	0.9991925	2.75005
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	114x120x100 voxels	0.997368x0.9975x0.999 mm
+[reg_aladin_sym] floating image size: 	114x120x100 voxels	0.997368x0.9975x0.999 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [29 30 25]
+[reg_aladin_sym] Backward Block number = [29 30 25]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9994699	0.00476162	0.03220528	2.090791
+-0.005536795	0.999696	0.02402509	-2.693588
+-0.0320811	-0.02419066	0.9991925	-2.754895
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9994699	-0.005536842	-0.03208109	-2.192976
+0.004761572	0.999696	-0.02419067	2.616171
+0.03220529	0.02402508	0.9991925	2.75005
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998728	-0.005070983	0.01511972	1.813062
+0.005252417	0.9999143	-0.01198734	-2.273815
+-0.01505762	0.01206522	0.9998138	-2.382471
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998728	0.005252461	-0.01505763	-1.836763
+-0.005070938	0.9999143	0.01206523	2.31156
+0.0151197	-0.01198733	0.9998139	2.327358
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	228x240x200 voxels	0.498684x0.49875x0.4995 mm
+[reg_aladin_sym] floating image size: 	228x240x200 voxels	0.498684x0.49875x0.4995 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [57 60 50]
+[reg_aladin_sym] Backward Block number = [57 60 50]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9998728	-0.005070983	0.01511972	1.813062
+0.005252417	0.9999143	-0.01198734	-2.273815
+-0.01505762	0.01206522	0.9998138	-2.382471
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9998728	0.005252461	-0.01505763	-1.836763
+-0.005070938	0.9999143	0.01206523	2.31156
+0.0151197	-0.01198733	0.9998139	2.327358
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998959	-0.005033764	0.01351812	1.498584
+0.005191466	0.9999185	-0.01165814	-2.175288
+-0.01345833	0.01172711	0.9998407	-2.326252
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.999896	0.00519149	-0.01345834	-1.518442
+-0.00503374	0.9999186	0.01172711	2.209934
+0.01351812	-0.01165814	0.9998407	2.280263
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 52 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/08/output/niftyreg/Case08-US.nii -flo bucket/BITE_group2_nii/08/output/niftyreg/Case08-MRI-landmarks.nii -res bucket/BITE_group2_nii/08/output/niftyreg/Case08-deformed_seg.nii -trans bucket/BITE_group2_nii/08/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/08/output/niftyreg/Case08-US.nii
+	228x240x200 voxels, 1 volumes
+	0.498684x0.49875x0.4995 mm
+Floating image name: bucket/BITE_group2_nii/08/output/niftyreg/Case08-MRI-landmarks.nii
+	228x240x200 voxels, 1 volumes
+	0.498684x0.49875x0.4995 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/08/output/niftyreg/Case08-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+img2 shape: (228, 240, 200)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+('landmark error (vox)', 5.048795556380363)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/09/output/niftyreg/Case09-US.nii -flo bucket/BITE_group2_nii/09/output/niftyreg/Case09-MRI_in_US.nii -res bucket/BITE_group2_nii/09/output/niftyreg/Case09-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/09/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/09/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/09/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/09/output/niftyreg/Case09-US.nii
+[reg_aladin_sym] 	206x136x164 voxels
+[reg_aladin_sym] 	0.498058x0.496324x0.49939 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/09/output/niftyreg/Case09-MRI_in_US.nii
+[reg_aladin_sym] 	206x136x164 voxels
+[reg_aladin_sym] 	0.498058x0.496324x0.49939 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	52x34x41 voxels	1.99223x1.98529x1.99756 mm
+[reg_aladin_sym] floating image size: 	52x34x41 voxels	1.99223x1.98529x1.99756 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 9 11]
+[reg_aladin_sym] Backward Block number = [13 9 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998863	-0.01503005	-0.00123566	-2.19481
+0.01507772	0.9979689	0.06189344	-2.415196
+0.0003028912	-0.06190503	0.998082	2.256902
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998863	0.01507772	0.0003028893	2.230293
+-0.01503005	0.9979689	-0.06190503	2.517015
+-0.001235662	0.06189344	0.998082	-2.1058
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	103x68x82 voxels	0.996117x0.992647x0.998781 mm
+[reg_aladin_sym] floating image size: 	103x68x82 voxels	0.996117x0.992647x0.998781 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 17 21]
+[reg_aladin_sym] Backward Block number = [26 17 21]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9998863	-0.01503005	-0.00123566	-2.19481
+0.01507772	0.9979689	0.06189344	-2.415196
+0.0003028912	-0.06190503	0.998082	2.256902
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9998863	0.01507772	0.0003028893	2.230293
+-0.01503005	0.9979689	-0.06190503	2.517015
+-0.001235662	0.06189344	0.998082	-2.1058
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999776	-0.003966552	0.005391973	-2.39606
+0.003621506	0.9980345	0.06256319	-1.673338
+-0.005629514	-0.06254227	0.9980264	1.824447
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999776	0.003621497	-0.005629534	2.412338
+-0.003966559	0.9980344	-0.06254226	1.77465
+0.005391951	0.0625632	0.9980264	-1.703238
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	206x136x164 voxels	0.498058x0.496324x0.49939 mm
+[reg_aladin_sym] floating image size: 	206x136x164 voxels	0.498058x0.496324x0.49939 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [52 34 41]
+[reg_aladin_sym] Backward Block number = [52 34 41]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9999776	-0.003966552	0.005391973	-2.39606
+0.003621506	0.9980345	0.06256319	-1.673338
+-0.005629514	-0.06254227	0.9980264	1.824447
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9999776	0.003621497	-0.005629534	2.412338
+-0.003966559	0.9980344	-0.06254226	1.77465
+0.005391951	0.0625632	0.9980264	-1.703238
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999803	-0.006231487	0.000754001	-1.622355
+0.006194953	0.9991242	0.04138389	-0.9441362
+-0.001011208	-0.04137839	0.9991431	1.192128
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999803	0.006194947	-0.001011224	1.629377
+-0.006231491	0.9991241	-0.0413784	0.9825279
+0.0007539853	0.04138387	0.999143	-1.150811
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 31 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/09/output/niftyreg/Case09-US.nii -flo bucket/BITE_group2_nii/09/output/niftyreg/Case09-MRI-landmarks.nii -res bucket/BITE_group2_nii/09/output/niftyreg/Case09-deformed_seg.nii -trans bucket/BITE_group2_nii/09/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/09/output/niftyreg/Case09-US.nii
+	206x136x164 voxels, 1 volumes
+	0.498058x0.496324x0.49939 mm
+Floating image name: bucket/BITE_group2_nii/09/output/niftyreg/Case09-MRI-landmarks.nii
+	206x136x164 voxels, 1 volumes
+	0.498058x0.496324x0.49939 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/09/output/niftyreg/Case09-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20.]
+img2 shape: (206, 136, 164)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20.]
+('landmark error (vox)', 6.425085396396087)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/10/output/niftyreg/Case10-US.nii -flo bucket/BITE_group2_nii/10/output/niftyreg/Case10-MRI_in_US.nii -res bucket/BITE_group2_nii/10/output/niftyreg/Case10-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/10/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/10/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/10/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/10/output/niftyreg/Case10-US.nii
+[reg_aladin_sym] 	233x234x196 voxels
+[reg_aladin_sym] 	0.498283x0.498718x0.49898 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/10/output/niftyreg/Case10-MRI_in_US.nii
+[reg_aladin_sym] 	233x234x196 voxels
+[reg_aladin_sym] 	0.498283x0.498718x0.49898 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	59x59x49 voxels	1.99313x1.99487x1.99592 mm
+[reg_aladin_sym] floating image size: 	59x59x49 voxels	1.99313x1.99487x1.99592 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [15 15 13]
+[reg_aladin_sym] Backward Block number = [15 15 13]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9995483	0.0005617966	0.03004865	-0.4515439
+-0.000385278	0.9999827	-0.005879756	-0.1199855
+-0.0300514	0.005865525	0.9995311	-2.886907
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9995483	-0.0003852821	-0.03005143	0.364538
+0.0005617923	0.9999827	0.005865523	0.1371703
+0.03004862	-0.005879759	0.9995311	2.898416
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	117x117x98 voxels	0.996567x0.997436x0.997959 mm
+[reg_aladin_sym] floating image size: 	117x117x98 voxels	0.996567x0.997436x0.997959 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [30 30 25]
+[reg_aladin_sym] Backward Block number = [30 30 25]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9995483	0.0005617966	0.03004865	-0.4515439
+-0.000385278	0.9999827	-0.005879756	-0.1199855
+-0.0300514	0.005865525	0.9995311	-2.886907
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9995483	-0.0003852821	-0.03005143	0.364538
+0.0005617923	0.9999827	0.005865523	0.1371703
+0.03004862	-0.005879759	0.9995311	2.898416
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998013	0.008161181	0.01818545	-0.248035
+-0.007839556	0.9998128	-0.01768786	-0.4263168
+-0.01832638	0.01754179	0.9996781	-3.303382
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998013	-0.007839548	-0.0183264	0.1841044
+0.008161187	0.9998128	0.01754178	0.4862085
+0.01818543	-0.01768788	0.9996782	3.299289
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	233x234x196 voxels	0.498283x0.498718x0.49898 mm
+[reg_aladin_sym] floating image size: 	233x234x196 voxels	0.498283x0.498718x0.49898 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [59 59 49]
+[reg_aladin_sym] Backward Block number = [59 59 49]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9998013	0.008161181	0.01818545	-0.248035
+-0.007839556	0.9998128	-0.01768786	-0.4263168
+-0.01832638	0.01754179	0.9996781	-3.303382
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9998013	-0.007839548	-0.0183264	0.1841044
+0.008161187	0.9998128	0.01754178	0.4862085
+0.01818543	-0.01768788	0.9996782	3.299289
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998519	0.005641558	0.01625807	-0.2187423
+-0.005292972	0.9997569	-0.02140462	-0.437654
+-0.0163749	0.02131541	0.9996387	-3.20753
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998519	-0.005292972	-0.01637487	0.1638705
+0.005641558	0.9997569	0.0213154	0.5071514
+0.0162581	-0.02140464	0.9996387	3.200559
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 1 min 3 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/10/output/niftyreg/Case10-US.nii -flo bucket/BITE_group2_nii/10/output/niftyreg/Case10-MRI-landmarks.nii -res bucket/BITE_group2_nii/10/output/niftyreg/Case10-deformed_seg.nii -trans bucket/BITE_group2_nii/10/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/10/output/niftyreg/Case10-US.nii
+	233x234x196 voxels, 1 volumes
+	0.498283x0.498718x0.49898 mm
+Floating image name: bucket/BITE_group2_nii/10/output/niftyreg/Case10-MRI-landmarks.nii
+	233x234x196 voxels, 1 volumes
+	0.498283x0.498718x0.49898 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/10/output/niftyreg/Case10-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24.]
+img2 shape: (233, 234, 196)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24.]
+('landmark error (vox)', 3.8463657724091527)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/11/output/niftyreg/Case11-US.nii -flo bucket/BITE_group2_nii/11/output/niftyreg/Case11-MRI_in_US.nii -res bucket/BITE_group2_nii/11/output/niftyreg/Case11-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/11/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/11/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/11/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/11/output/niftyreg/Case11-US.nii
+[reg_aladin_sym] 	206x212x190 voxels
+[reg_aladin_sym] 	0.499515x0.498113x0.498947 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/11/output/niftyreg/Case11-MRI_in_US.nii
+[reg_aladin_sym] 	206x212x190 voxels
+[reg_aladin_sym] 	0.499515x0.498113x0.498947 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	52x53x48 voxels	1.99806x1.99245x1.99579 mm
+[reg_aladin_sym] floating image size: 	52x53x48 voxels	1.99806x1.99245x1.99579 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 14 12]
+[reg_aladin_sym] Backward Block number = [13 14 12]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.999348	0.02658891	-0.02442513	0.2880603
+-0.02661916	0.9996452	-0.000912982	1.059496
+0.02439221	0.001562561	0.9997013	0.2673467
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.999348	-0.02661913	0.02439219	-0.2661908
+0.02658894	0.9996452	0.001562563	-1.067197
+-0.02442515	-0.0009129804	0.9997013	-0.2592637
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	103x106x95 voxels	0.999029x0.996226x0.997895 mm
+[reg_aladin_sym] floating image size: 	103x106x95 voxels	0.999029x0.996226x0.997895 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 27 24]
+[reg_aladin_sym] Backward Block number = [26 27 24]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.999348	0.02658891	-0.02442513	0.2880603
+-0.02661916	0.9996452	-0.000912982	1.059496
+0.02439221	0.001562561	0.9997013	0.2673467
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.999348	-0.02661913	0.02439219	-0.2661908
+0.02658894	0.9996452	0.001562563	-1.067197
+-0.02442515	-0.0009129804	0.9997013	-0.2592637
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9987735	0.01598711	-0.04686161	0.5229626
+-0.01600203	0.999872	5.648987e-05	-0.2089085
+0.04685649	0.0006934502	0.9989014	-1.142886
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9987735	-0.01600205	0.04685651	-0.4721124
+0.0159871	0.999872	0.0006934605	0.2013136
+-0.04686158	5.650039e-05	0.9989014	1.16615
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	206x212x190 voxels	0.499515x0.498113x0.498947 mm
+[reg_aladin_sym] floating image size: 	206x212x190 voxels	0.499515x0.498113x0.498947 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [52 53 48]
+[reg_aladin_sym] Backward Block number = [52 53 48]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9987735	0.01598711	-0.04686161	0.5229626
+-0.01600203	0.999872	5.648987e-05	-0.2089085
+0.04685649	0.0006934502	0.9989014	-1.142886
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9987735	-0.01600205	0.04685651	-0.4721124
+0.0159871	0.999872	0.0006934605	0.2013136
+-0.04686158	5.650039e-05	0.9989014	1.16615
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9991693	0.01568434	-0.03761093	0.4103053
+-0.01598127	0.9998434	-0.007608081	0.3021709
+0.03748572	0.00820284	0.9992635	-0.879116
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9991694	-0.01598131	0.03748571	-0.3721811
+0.01568431	0.9998433	0.008202832	-0.3013476
+-0.03761094	-0.007608087	0.9992635	0.8961995
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 50 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/11/output/niftyreg/Case11-US.nii -flo bucket/BITE_group2_nii/11/output/niftyreg/Case11-MRI-landmarks.nii -res bucket/BITE_group2_nii/11/output/niftyreg/Case11-deformed_seg.nii -trans bucket/BITE_group2_nii/11/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/11/output/niftyreg/Case11-US.nii
+	206x212x190 voxels, 1 volumes
+	0.499515x0.498113x0.498947 mm
+Floating image name: bucket/BITE_group2_nii/11/output/niftyreg/Case11-MRI-landmarks.nii
+	206x212x190 voxels, 1 volumes
+	0.499515x0.498113x0.498947 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/11/output/niftyreg/Case11-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24.]
+img2 shape: (206, 212, 190)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22. 23. 24.]
+('landmark error (vox)', 3.2977879188004984)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/12/output/niftyreg/Case12-US.nii -flo bucket/BITE_group2_nii/12/output/niftyreg/Case12-MRI_in_US.nii -res bucket/BITE_group2_nii/12/output/niftyreg/Case12-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/12/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/12/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/12/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/12/output/niftyreg/Case12-US.nii
+[reg_aladin_sym] 	208x190x197 voxels
+[reg_aladin_sym] 	0.499038x0.498947x0.49797 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/12/output/niftyreg/Case12-MRI_in_US.nii
+[reg_aladin_sym] 	208x190x197 voxels
+[reg_aladin_sym] 	0.499038x0.498947x0.49797 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	52x48x50 voxels	1.99615x1.99579x1.99188 mm
+[reg_aladin_sym] floating image size: 	52x48x50 voxels	1.99615x1.99579x1.99188 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 12 13]
+[reg_aladin_sym] Backward Block number = [13 12 13]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9997582	0.02199251	-8.939289e-05	-1.209026
+-0.02199107	0.9996261	-0.01624921	-0.07787488
+-0.000267996	0.01624724	0.999868	-2.706723
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9997581	-0.02199106	-0.0002680017	1.206296
+0.02199252	0.9996261	0.01624725	0.1484121
+-8.939872e-05	-0.01624921	0.999868	2.704993
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	104x95x99 voxels	0.998077x0.997895x0.995939 mm
+[reg_aladin_sym] floating image size: 	104x95x99 voxels	0.998077x0.997895x0.995939 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 24 25]
+[reg_aladin_sym] Backward Block number = [26 24 25]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9997582	0.02199251	-8.939289e-05	-1.209026
+-0.02199107	0.9996261	-0.01624921	-0.07787488
+-0.000267996	0.01624724	0.999868	-2.706723
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9997581	-0.02199106	-0.0002680017	1.206296
+0.02199252	0.9996261	0.01624725	0.1484121
+-8.939872e-05	-0.01624921	0.999868	2.704993
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998357	0.0178562	-0.003092987	-1.021792
+-0.017893	0.9997641	-0.01231278	-0.8607194
+0.002872396	0.01236612	0.9999194	-3.336795
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998358	-0.01789301	0.002872398	1.015808
+0.01785619	0.9997641	0.0123661	0.9200249
+-0.003092986	-0.01231279	0.9999194	3.322768
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	208x190x197 voxels	0.499038x0.498947x0.49797 mm
+[reg_aladin_sym] floating image size: 	208x190x197 voxels	0.499038x0.498947x0.49797 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [52 48 50]
+[reg_aladin_sym] Backward Block number = [52 48 50]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9998357	0.0178562	-0.003092987	-1.021792
+-0.017893	0.9997641	-0.01231278	-0.8607194
+0.002872396	0.01236612	0.9999194	-3.336795
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9998358	-0.01789301	0.002872398	1.015808
+0.01785619	0.9997641	0.0123661	0.9200249
+-0.003092986	-0.01231279	0.9999194	3.322768
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9999427	0.008037699	-0.007073502	-1.001556
+-0.008093803	0.9999357	-0.007940606	-0.8991903
+0.007009219	0.0079974	0.9999434	-2.731315
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9999427	-0.008093814	0.007009223	1.013365
+0.008037688	0.9999357	0.007997403	0.9290261
+-0.007073498	-0.007940604	0.9999435	2.716936
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 41 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/12/output/niftyreg/Case12-US.nii -flo bucket/BITE_group2_nii/12/output/niftyreg/Case12-MRI-landmarks.nii -res bucket/BITE_group2_nii/12/output/niftyreg/Case12-deformed_seg.nii -trans bucket/BITE_group2_nii/12/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/12/output/niftyreg/Case12-US.nii
+	208x190x197 voxels, 1 volumes
+	0.499038x0.498947x0.49797 mm
+Floating image name: bucket/BITE_group2_nii/12/output/niftyreg/Case12-MRI-landmarks.nii
+	208x190x197 voxels, 1 volumes
+	0.499038x0.498947x0.49797 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/12/output/niftyreg/Case12-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20.]
+img2 shape: (208, 190, 197)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20.]
+('landmark error (vox)', 4.861778373508903)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/13/output/niftyreg/Case13-US.nii -flo bucket/BITE_group2_nii/13/output/niftyreg/Case13-MRI_in_US.nii -res bucket/BITE_group2_nii/13/output/niftyreg/Case13-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/13/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/13/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/13/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/13/output/niftyreg/Case13-US.nii
+[reg_aladin_sym] 	177x143x234 voxels
+[reg_aladin_sym] 	0.498305x0.499301x0.498718 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/13/output/niftyreg/Case13-MRI_in_US.nii
+[reg_aladin_sym] 	177x143x234 voxels
+[reg_aladin_sym] 	0.498305x0.499301x0.498718 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	45x36x59 voxels	1.99322x1.9972x1.99487 mm
+[reg_aladin_sym] floating image size: 	45x36x59 voxels	1.99322x1.9972x1.99487 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 9 15]
+[reg_aladin_sym] Backward Block number = [12 9 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.998805	-0.02368444	0.04275135	-3.367573
+0.02467443	0.999436	-0.02277962	-4.3751
+-0.04218772	0.02380727	0.998826	-0.187263
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.998805	0.02467443	-0.04218772	3.463601
+-0.02368444	0.999436	0.02380726	4.297331
+0.04275136	-0.02277963	0.998826	0.2313483
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	89x72x117 voxels	0.99661x0.998601x0.997436 mm
+[reg_aladin_sym] floating image size: 	89x72x117 voxels	0.99661x0.998601x0.997436 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 18 30]
+[reg_aladin_sym] Backward Block number = [23 18 30]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.998805	-0.02368444	0.04275135	-3.367573
+0.02467443	0.999436	-0.02277962	-4.3751
+-0.04218772	0.02380727	0.998826	-0.187263
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.998805	0.02467443	-0.04218772	3.463601
+-0.02368444	0.999436	0.02380726	4.297331
+0.04275136	-0.02277963	0.998826	0.2313483
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9992863	-0.03152422	0.02081173	-3.252544
+0.03220421	0.9989301	-0.03319022	-3.712877
+-0.01974317	0.03383677	0.9992324	0.07201313
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9992862	0.03220421	-0.01974317	3.371214
+-0.03152421	0.9989301	0.03383676	3.603935
+0.02081173	-0.03319024	0.9992324	-0.127498
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	177x143x234 voxels	0.498305x0.499301x0.498718 mm
+[reg_aladin_sym] floating image size: 	177x143x234 voxels	0.498305x0.499301x0.498718 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [45 36 59]
+[reg_aladin_sym] Backward Block number = [45 36 59]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9992863	-0.03152422	0.02081173	-3.252544
+0.03220421	0.9989301	-0.03319022	-3.712877
+-0.01974317	0.03383677	0.9992324	0.07201313
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9992862	0.03220421	-0.01974317	3.371214
+-0.03152421	0.9989301	0.03383676	3.603935
+0.02081173	-0.03319024	0.9992324	-0.127498
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9992289	-0.03101272	0.02407801	-2.584734
+0.0318456	0.9988793	-0.03501515	-3.15131
+-0.02296511	0.03575492	0.9990967	0.5612085
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.999229	0.03184561	-0.02296511	2.695985
+-0.03101271	0.9988793	0.03575493	3.047552
+0.02407801	-0.03501514	0.9990966	-0.6088099
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 37 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/13/output/niftyreg/Case13-US.nii -flo bucket/BITE_group2_nii/13/output/niftyreg/Case13-MRI-landmarks.nii -res bucket/BITE_group2_nii/13/output/niftyreg/Case13-deformed_seg.nii -trans bucket/BITE_group2_nii/13/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/13/output/niftyreg/Case13-US.nii
+	177x143x234 voxels, 1 volumes
+	0.498305x0.499301x0.498718 mm
+Floating image name: bucket/BITE_group2_nii/13/output/niftyreg/Case13-MRI-landmarks.nii
+	177x143x234 voxels, 1 volumes
+	0.498305x0.499301x0.498718 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/13/output/niftyreg/Case13-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+img2 shape: (177, 143, 234)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+('landmark error (vox)', 6.925049985130055)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/BITE_group2_nii/14/output/niftyreg/Case14-US.nii -flo bucket/BITE_group2_nii/14/output/niftyreg/Case14-MRI_in_US.nii -res bucket/BITE_group2_nii/14/output/niftyreg/Case14-MRI_to_US_result.nii -rmask bucket/BITE_group2_nii/14/output/niftyreg/mask_US.nii -fmask bucket/BITE_group2_nii/14/output/niftyreg/mask_US.nii -aff bucket/BITE_group2_nii/14/output/niftyreg/affine_matrix.txt -rigOnly
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/BITE_group2_nii/14/output/niftyreg/Case14-US.nii
+[reg_aladin_sym] 	175x251x224 voxels
+[reg_aladin_sym] 	0.497143x0.499602x0.498214 mm
+[reg_aladin_sym] Floating image name: bucket/BITE_group2_nii/14/output/niftyreg/Case14-MRI_in_US.nii
+[reg_aladin_sym] 	175x251x224 voxels
+[reg_aladin_sym] 	0.497143x0.499602x0.498214 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	44x63x56 voxels	1.98857x1.99841x1.99286 mm
+[reg_aladin_sym] floating image size: 	44x63x56 voxels	1.98857x1.99841x1.99286 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [11 16 14]
+[reg_aladin_sym] Backward Block number = [11 16 14]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9995787	0.01731366	0.02329626	3.489046
+-0.01764501	0.999745	0.01409284	0.3510448
+-0.02304633	-0.01449798	0.9996292	-3.486623
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9995787	-0.01764499	-0.02304632	-3.561735
+0.01731368	0.999745	-0.01449796	-0.4619124
+0.02329627	0.01409286	0.9996293	3.399102
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	88x126x112 voxels	0.994286x0.999203x0.996429 mm
+[reg_aladin_sym] floating image size: 	88x126x112 voxels	0.994286x0.999203x0.996429 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [22 32 28]
+[reg_aladin_sym] Backward Block number = [22 32 28]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9995787	0.01731366	0.02329626	3.489046
+-0.01764501	0.999745	0.01409284	0.3510448
+-0.02304633	-0.01449798	0.9996292	-3.486623
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9995787	-0.01764499	-0.02304632	-3.561735
+0.01731368	0.999745	-0.01449796	-0.4619124
+0.02329627	0.01409286	0.9996293	3.399102
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9996458	0.01103289	0.02421519	2.329781
+-0.01142873	0.9998023	0.01627123	-0.4875966
+-0.02403088	-0.0165422	0.9995744	-3.552239
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9996459	-0.01142876	-0.02403088	-2.419892
+0.01103285	0.9998024	-0.01654222	0.4030342
+0.02421518	0.01627121	0.9995743	3.502245
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	175x251x224 voxels	0.497143x0.499602x0.498214 mm
+[reg_aladin_sym] floating image size: 	175x251x224 voxels	0.497143x0.499602x0.498214 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [44 63 56]
+[reg_aladin_sym] Backward Block number = [44 63 56]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9996458	0.01103289	0.02421519	2.329781
+-0.01142873	0.9998023	0.01627123	-0.4875966
+-0.02403088	-0.0165422	0.9995744	-3.552239
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9996459	-0.01142876	-0.02403088	-2.419892
+0.01103285	0.9998024	-0.01654222	0.4030342
+0.02421518	0.01627121	0.9995743	3.502245
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9998188	-0.000183249	0.01903661	1.736266
+0.0001093704	0.9999925	0.003880997	-0.7661144
+-0.01903719	-0.003878213	0.9998112	-3.032127
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9998187	0.0001093863	-0.01903718	-1.79359
+-0.000183233	0.9999925	-0.003878212	0.7546676
+0.01903663	0.003880999	0.9998113	3.001476
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 52 sec
+[reg_aladin] Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref bucket/BITE_group2_nii/14/output/niftyreg/Case14-US.nii -flo bucket/BITE_group2_nii/14/output/niftyreg/Case14-MRI-landmarks.nii -res bucket/BITE_group2_nii/14/output/niftyreg/Case14-deformed_seg.nii -trans bucket/BITE_group2_nii/14/output/niftyreg/affine_matrix.txt -inter 0
+Parameters
+Reference image name: bucket/BITE_group2_nii/14/output/niftyreg/Case14-US.nii
+	175x251x224 voxels, 1 volumes
+	0.497143x0.499602x0.498214 mm
+Floating image name: bucket/BITE_group2_nii/14/output/niftyreg/Case14-MRI-landmarks.nii
+	175x251x224 voxels, 1 volumes
+	0.497143x0.499602x0.498214 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: bucket/BITE_group2_nii/14/output/niftyreg/Case14-deformed_seg.nii
+Unique image data: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+img2 shape: (175, 251, 224)
+Unique image data 2: [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15. 16. 17.
+ 18. 19. 20. 21. 22.]
+('landmark error (vox)', 5.021501702655686)
